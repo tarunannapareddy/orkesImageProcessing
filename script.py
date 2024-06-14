@@ -10,8 +10,8 @@ load_dotenv('config.env')
 s3_region = 'ap-south-1'
 s3_bucket_name = 'orkes-image-input-data'
 s3_client = boto3.client('s3',
-                        aws_access_key_id='AKIAUTA4UV6WXMYCSA74',
-                        aws_secret_access_key='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',
+                        aws_access_key_id='',
+                        aws_secret_access_key='',
                         region_name='ap-south-1')
 
 

@@ -21,8 +21,8 @@ def extract_bucket_and_filename(s3_link):
     return bucket_name, file_path, file_name
 
 s3 = boto3.client('s3',
-                        aws_access_key_id='AKIAUTA4UV6WXMYCSA74',
-                        aws_secret_access_key='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',
+                        aws_access_key_id='',
+                        aws_secret_access_key='',
                         region_name='ap-south-1')
 
 def download_image_from_s3(bucket_name, file_path, file_name):
